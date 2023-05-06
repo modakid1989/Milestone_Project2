@@ -1,6 +1,6 @@
 const express = require('express');
 const user = express.Router();
-const {createUser} = require('../controllers/userControllers');
+const {createUser} = require('../../Backend/controllers/userControllers');
 
 
 user.post('/register',createUser)

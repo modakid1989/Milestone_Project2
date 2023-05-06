@@ -1,6 +1,6 @@
 //TODOs
 
-const Todo = require("../models/Todo");
+const Todo = require("../../server/models/Todo");
 
 
 const todos = async (req, res) => {

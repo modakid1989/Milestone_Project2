@@ -3,7 +3,7 @@ import "./App.css";
 
 export const App = () => {
 	return (
-		<h1>App component</h1>
+		<h1>App componenst</h1>
 	)
 }
 // window.addEventListener('load', () => {
