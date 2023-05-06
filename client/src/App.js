@@ -6,6 +6,7 @@ export const App = () => {
 		<h1>App componenst</h1>
 	)
 }
+
 // window.addEventListener('load', () => {
 // 	const form = document.querySelector("#new-task-form");
 // 	const input = document.querySelector("#new-task-input");
