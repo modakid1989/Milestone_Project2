@@ -14,7 +14,6 @@ mongoose.connect("mongodb://0.0.0.0:27017/mern-todo", {
     .then(() => console.log("Connected to db"))
     .catch(console.error);
 
-
 const Todo = require('./models/Todo');
 
 app.get('/todos', async(req,res) => {
@@ -49,5 +48,7 @@ app.get('/todo/complete/:id', async(req,res) => {
 
     res.json(todo);
 })
+
+// testing
 
 app.listen(3001, () => console.log("Server started on port 3001"));
